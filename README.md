@@ -7,10 +7,11 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.x-38BDF8?style=for-the-badge&logo=tailwindcss)
 ![Google Gemini](https://img.shields.io/badge/Gemini%20AI-2.0%20Flash-8E75B2?style=for-the-badge&logo=google)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel)
 
 **Paste a YouTube algorithm video → Get instant flashcards, quizzes, summaries & animations.**
 
-[🚀 Live Demo](#) · [📖 Documentation](#setup) · [🐛 Report Bug](https://github.com/Vishrut-10-Goel/Video-Summariser-and-Transcriber/issues)
+[🚀 Live Demo](https://video-summariser-and-transcriber-2h.vercel.app/) · [📖 Documentation](#setup) · [🐛 Report Bug](https://github.com/Vishrut-10-Goel/Video-Summariser-and-Transcriber/issues)
 
 </div>
 
@@ -108,9 +109,13 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🌐 Deploying to Vercel
+## 🌐 Live Deployment
 
-1. Push your code to GitHub (already done ✅)
+> **🚀 Live URL:** [https://video-summariser-and-transcriber-2h.vercel.app/](https://video-summariser-and-transcriber-2h.vercel.app/)
+
+## 🌐 Deploying Your Own Instance
+
+1. Push your code to GitHub
 2. Go to [vercel.com/new](https://vercel.com/new)
 3. Import this repository
 4. Add the environment variable:

@@ -127,21 +127,21 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🎯 Supported Algorithms
 
-| Algorithm | Category | Time Complexity |
-|-----------|----------|-----------------|
-| A* Pathfinding | Graph Search | O(b^d) |
-| Breadth-First Search (BFS) | Graph Traversal | O(V + E) |
-| Depth-First Search (DFS) | Graph Traversal | O(V + E) |
-| Alpha-Beta Pruning | AI Game Trees | O(b^(d/2)) |
-| N-Queens Problem | Backtracking | O(N!) |
-| Prim's Algorithm | Minimum Spanning Tree | O(E log V) |
-| Kruskal's Algorithm | Minimum Spanning Tree | O(E log E) |
-| 0/1 Knapsack | Dynamic Programming | O(nW) |
-| Fractional Knapsack | Greedy | O(n log n) |
-| Longest Common Subsequence | Dynamic Programming | O(mn) |
-| Huffman Coding | Greedy | O(n log n) |
-| Hamiltonian Cycle | Backtracking | O(N!) |
-| OBST | Dynamic Programming | O(n³) |
+| Algorithm | Category | Time Complexity | Video Reference |
+|-----------|----------|-----------------|-----------------|
+| A* Pathfinding | Graph Search | O(b^d) | [▶ Watch](https://youtu.be/tvAh0JZF2YE?si=ssIPCX46nFLvpZ91) |
+| Breadth-First Search (BFS) | Graph Traversal | O(V + E) | [▶ Watch](https://youtu.be/pcKY4hjDrxk?si=-L_yqmwMa6ZgXeVQ) |
+| Depth-First Search (DFS) | Graph Traversal | O(V + E) | [▶ Watch](https://youtu.be/pcKY4hjDrxk?si=lvaqDwZRwH0qEhD_) |
+| Alpha-Beta Pruning | AI Game Trees | O(b^(d/2)) | [▶ Watch](https://youtu.be/dEs_kbvu_0s?si=u4lfdmc2lantQ8QU) |
+| N-Queens Problem | Backtracking | O(N!) | [▶ Watch](https://youtu.be/xFv_Hl4B83A?si=o9lU2DuPuiub61KT) |
+| Prim's Algorithm | Minimum Spanning Tree | O(E log V) | [▶ Watch](https://youtu.be/4ZlRH0eK-qQ?si=LNbZki14svpJx_35) |
+| Kruskal's Algorithm | Minimum Spanning Tree | O(E log E) | [▶ Watch](https://youtu.be/4ZlRH0eK-qQ?si=ohX9ac90KpA9rWA_) |
+| 0/1 Knapsack | Dynamic Programming | O(nW) | [▶ Watch](https://youtu.be/nLmhmB6NzcM?si=3G3jHOwA6JVWWJwi) |
+| Fractional Knapsack | Greedy | O(n log n) | [▶ Watch](https://youtu.be/oTTzNMHM05I?si=YX5Wm-qJsudtpZlT) |
+| Longest Common Subsequence | Dynamic Programming | O(mn) | [▶ Watch](https://youtu.be/sSno9rV8Rhg?si=WJaCVwRN1EmWFhXC) |
+| Huffman Coding | Greedy | O(n log n) | [▶ Watch](https://youtu.be/co4_ahEDCho?si=Py6tK4oj1oEllkXF) |
+| Hamiltonian Cycle | Backtracking | O(N!) | [▶ Watch](https://youtu.be/dQr4wZCiJJ4?si=3oG8K8eK_PuMjn1L) |
+| OBST | Dynamic Programming | O(n³) | [▶ Watch](https://youtu.be/vLS-zRCHo-Y?si=rTcZk3x5ApATru0T) |
 
 > The platform also supports **any custom algorithm video** via the AI analysis engine.
 

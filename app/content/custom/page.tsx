@@ -1,13 +1,13 @@
 'use client';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { AILayout } from '@/components/ai-layout';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card } from '@/components/ui/card';
 import { CheckCircle, HelpCircle, Code2, ListChecks, Info, AlertCircle, Zap, Sparkles } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-export default function CustomAlgorithmPage() {
+function CustomAlgorithmContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const [data, setData] = useState<any>(null);
@@ -239,5 +239,17 @@ export default function CustomAlgorithmPage() {
         </Tabs>
       </div>
     </AILayout>
+  );
+}
+
+export default function CustomAlgorithmPage() {
+  return (
+    <Suspense fallback={
+      <div className="flex min-h-screen items-center justify-center bg-[#070706]">
+        <div className="animate-pulse text-white/40">Loading AI Content...</div>
+      </div>
+    }>
+      <CustomAlgorithmContent />
+    </Suspense>
   );
 }
